@@ -7,7 +7,7 @@ const Routing = (props: any) => {
   return (
     <Router>
       <Routes>
-        <Route index element={<Generator />} />
+        <Route path="/" element={<Generator />} />
         <Route path="/payment" element={<Payment />} />
       </Routes>
       {props.children}
